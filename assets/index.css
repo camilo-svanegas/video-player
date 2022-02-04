@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 10px;
+}
+
+header{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1{
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+}
+
+header h1 span{
+    color: greenyellow;
+}
+
+main{
+    padding: 90px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 20px;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    background: greenyellow;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+footer{
+    background: #f7f5f5;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+footer p{
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    margin: 0;
+}
+
+footer p span{
+    color: greenyellow;
+}
