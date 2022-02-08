@@ -55,6 +55,7 @@ button{
     font-family: 'Russo One', sans-serif;
     cursor: pointer;
     max-width: 200px;
+    display: inline-block;
 }
 
 footer{
